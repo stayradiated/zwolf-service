@@ -1,0 +1,5 @@
+src
+dist/*.spec.*
+dist/*.map
+dist/tsconfig.tsbuildinfo
+*.log

@@ -1,0 +1,22 @@
+{
+  "name": "@zwolf/service",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "test": "pkg-test",
+    "build": "pkg-build",
+    "lint": "pkg-lint",
+    "tidy": "pkg-tidy"
+  },
+  "devDependencies": {
+    "@stayradiated/pkg": "4.1.0",
+    "@types/node": "13.7.0"
+  },
+  "dependencies": {
+    "@zwolf/log": "1.0.2",
+    "@zwolf/turbine": "3.5.0",
+    "@zwolf/turbine-driver-google-cloud-pubsub": "3.5.0",
+    "env-var": "5.2.0"
+  }
+}
