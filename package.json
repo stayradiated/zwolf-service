@@ -18,8 +18,8 @@
   },
   "dependencies": {
     "@zwolf/log": "1.0.2",
-    "@zwolf/turbine": "3.5.0",
-    "@zwolf/turbine-driver-google-cloud-pubsub": "3.5.0",
+    "@zwolf/turbine": "3.7.0",
+    "@zwolf/turbine-driver-google-cloud-pubsub": "3.7.1",
     "env-var": "5.2.0"
   }
 }

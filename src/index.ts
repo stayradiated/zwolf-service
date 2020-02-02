@@ -1,6 +1,7 @@
 import createTurbineService from '@zwolf/turbine'
 import createDriver, {
   SubscriptionDeliveryType,
+  GoogleCloudPubSubService,
 } from '@zwolf/turbine-driver-google-cloud-pubsub'
 import log from '@zwolf/log'
 
@@ -26,7 +27,7 @@ const createService = (options: CreateServiceOptions = {}) => {
     ackDeadlineSeconds = ACK_DEADLINE_SECONDS,
   } = options
 
-  return createTurbineService({
+  return createTurbineService<GoogleCloudPubSubService>({
     serviceName,
     driver: log(
       createDriver({
