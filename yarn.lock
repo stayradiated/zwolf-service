@@ -289,7 +289,7 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.14.0.tgz#9fb3a3cf3132328151f353de4632e01e52102bea"
   integrity sha512-9NET910DNaIPngYnLLPeg+Ogzqsi9uM4mSboU5y6p8S5DzMTVEsJZrawi+BoDNUVBa2DhJqQYUFvMDfgU062LQ==
 
-"@stayradiated/pkg@4.1.0":
+"@stayradiated/pkg@^4.1.0":
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/@stayradiated/pkg/-/pkg-4.1.0.tgz#3c3a78b5acddd9be7ccc670d55c9c2d8205eb93b"
   integrity sha512-6/spOqzYLb9JcnOcPWH9Ei10w+RwreKyCoprKkEIWU7mRWzz2jrCRs+ieXYOEovtMvHIL/RkJal4BNWlpVR9Jg==
@@ -409,7 +409,7 @@
   resolved "https://registry.yarnpkg.com/@types/minimatch/-/minimatch-3.0.3.tgz#3dca0e3f33b200fc7d1139c0cd96c1268cadfd9d"
   integrity sha512-tHq6qdbT9U1IRSGf14CL0pUlULksvY9OZ+5eEgl1N7t+OA3tGvNpxJCzuKQlsNgCVwbAs670L1vcVQi8j9HjnA==
 
-"@types/node@*", "@types/node@13.7.0":
+"@types/node@*", "@types/node@^13.7.0":
   version "13.7.0"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-13.7.0.tgz#b417deda18cf8400f278733499ad5547ed1abec4"
   integrity sha512-GnZbirvmqZUzMgkFn70c74OQpTTUcCzlhQliTzYjQMqg+hVKcDnxdL19Ne3UdYzdMA/+W3eb646FWn/ZaT1NfQ==
@@ -490,7 +490,7 @@
     semver "^6.3.0"
     tsutils "^3.17.1"
 
-"@zwolf/firestore@1.0.2":
+"@zwolf/firestore@^1.0.2":
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/@zwolf/firestore/-/firestore-1.0.2.tgz#8ce3297791a9806c60c6e5edf6c544dfb8097326"
   integrity sha512-dtMiyeEB27QRx5DAMJBEBW6MtN/JyiCWFxiVVzCjS1CAVZZJccCmrRqFaAGVgjk3E8/HnrBSVd0K55wgCepomA==
@@ -498,15 +498,15 @@
     firebase-admin "8.9.2"
     typesaurus "5.1.0"
 
-"@zwolf/log@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@zwolf/log/-/log-1.0.2.tgz#a8d703af2583757aabbb4f8ea845de459bcf1ad8"
-  integrity sha512-IVoRXZ7p9RNh/8CLuDuDYLmBcuAJgKeKlLXfvm38SBZZ3VYPdLyBcQJYypZIa9WFSb9ZGJH+5iL4blehxiDhIw==
+"@zwolf/log@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@zwolf/log/-/log-1.1.0.tgz#677212a45ab35e6b666e52111a9b5e9f6f4af0c5"
+  integrity sha512-LWZz5d95iVHaeB/ZtWw4lDwK6Ppu3ljMfx9HkjluhYf5Xs83pyJqUgI65RYXo2Dr6FFnENDyV0FwNJQVyp1zQQ==
   dependencies:
-    "@zwolf/firestore" "1.0.2"
-    "@zwolf/turbine" "3.5.0"
+    "@zwolf/firestore" "^1.0.2"
+    "@zwolf/turbine" "^3.7.0"
 
-"@zwolf/turbine-driver-google-cloud-pubsub@3.7.1":
+"@zwolf/turbine-driver-google-cloud-pubsub@^3.7.1":
   version "3.7.1"
   resolved "https://registry.yarnpkg.com/@zwolf/turbine-driver-google-cloud-pubsub/-/turbine-driver-google-cloud-pubsub-3.7.1.tgz#b6aa021c03db60353a6d55992d36f5a3b794cf2b"
   integrity sha512-XSQ5Zj1EaOpVgO7wat55AhAm5RgD5ZUwEI8aK91fLn6IzPKp9ACypUrYxrrmXacwlmq5Ctgibclnyv2PrQzj8w==
@@ -519,14 +519,7 @@
     express "4.17.1"
     mem "6.0.1"
 
-"@zwolf/turbine@3.5.0":
-  version "3.5.0"
-  resolved "https://registry.yarnpkg.com/@zwolf/turbine/-/turbine-3.5.0.tgz#858e72b814eb4dc68a8a6317e0fb4324fbc5fc6c"
-  integrity sha512-ffm597yvK+4QAG/IPum6aoV2cazleyLwk5LVZEtth5hrZv3KIKqDLv65B/hEh4KpOQDmi1CgJLq5rtqCUG/VMw==
-  dependencies:
-    ulid "2.3.0"
-
-"@zwolf/turbine@3.7.0", "@zwolf/turbine@^3.7.0":
+"@zwolf/turbine@^3.7.0":
   version "3.7.0"
   resolved "https://registry.yarnpkg.com/@zwolf/turbine/-/turbine-3.7.0.tgz#4bad31ea2301b02ebb2c71f5d0a31346ff2d5310"
   integrity sha512-5wOvs6WeGsggnPmw/5Ld/zL35lsn3ElvT/A/sehMMVsVU8U6Xz/iKK1qfQiRMeNu8dvyV+GaOZlaXyDf7tE34Q==
@@ -1449,7 +1442,7 @@ ent@^2.2.0:
   resolved "https://registry.yarnpkg.com/ent/-/ent-2.2.0.tgz#e964219325a21d05f44466a2f686ed6ce5f5dd1d"
   integrity sha1-6WQhkyWiHQX0RGai9obtbOX13R0=
 
-env-var@5.2.0:
+env-var@5.2.0, env-var@^5.2.0:
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/env-var/-/env-var-5.2.0.tgz#3ce888131793723b57f4602d8970a1cdbc7e6f27"
   integrity sha512-D4vkwxt0aPY9SiQi6l/K57BvLn2aqASzExVlEpz7dHXVczbQmd1V3DQMMkTaPf4/tKvYAivX8oSRl86XGiDpTQ==

@@ -13,13 +13,13 @@
     "tidy": "pkg-tidy"
   },
   "devDependencies": {
-    "@stayradiated/pkg": "4.1.0",
-    "@types/node": "13.7.0"
+    "@stayradiated/pkg": "^4.1.0",
+    "@types/node": "^13.7.0"
   },
   "dependencies": {
-    "@zwolf/log": "1.0.2",
-    "@zwolf/turbine": "3.7.0",
-    "@zwolf/turbine-driver-google-cloud-pubsub": "3.7.1",
-    "env-var": "5.2.0"
+    "@zwolf/log": "^1.1.0",
+    "@zwolf/turbine": "^3.7.0",
+    "@zwolf/turbine-driver-google-cloud-pubsub": "^3.7.1",
+    "env-var": "^5.2.0"
   }
 }
