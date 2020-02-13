@@ -4,6 +4,7 @@ import createDriver, {
   GoogleCloudPubSubService,
 } from '@zwolf/turbine-driver-google-cloud-pubsub'
 import log from '@zwolf/log'
+import { Express } from 'express'
 
 import {
   SERVICE_NAME,
@@ -17,6 +18,7 @@ interface CreateServiceOptions {
   serviceUrl?: string,
   serviceAccountEmail?: string,
   ackDeadlineSeconds?: number,
+  expressServer?: Express,
 }
 
 const createService = (options: CreateServiceOptions = {}) => {
@@ -25,6 +27,7 @@ const createService = (options: CreateServiceOptions = {}) => {
     serviceUrl = SERVICE_URL,
     serviceAccountEmail = SERVICE_ACCOUNT_EMAIL,
     ackDeadlineSeconds = ACK_DEADLINE_SECONDS,
+    expressServer,
   } = options
 
   return createTurbineService<GoogleCloudPubSubService>({
@@ -37,6 +40,7 @@ const createService = (options: CreateServiceOptions = {}) => {
           serviceAccountEmail,
         },
         ackDeadlineSeconds,
+        expressServer,
       }),
     ),
   })
