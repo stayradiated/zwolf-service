@@ -511,10 +511,10 @@
     "@zwolf/firestore" "^1.0.2"
     "@zwolf/turbine" "^3.7.0"
 
-"@zwolf/turbine-driver-google-cloud-pubsub@^4.0.0":
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/@zwolf/turbine-driver-google-cloud-pubsub/-/turbine-driver-google-cloud-pubsub-4.0.0.tgz#f31d05b9077b6cd5a2217b63c9b7398cc6162ec5"
-  integrity sha512-rMR9Mh7jRmQukRWNIbYKGhkldWwctGYYRdovxOwNkdQ5y5OC54PsYewqO8mLDSMoM3lzSItcSHoyhmitVcRcMw==
+"@zwolf/turbine-driver-google-cloud-pubsub@^4.1.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@zwolf/turbine-driver-google-cloud-pubsub/-/turbine-driver-google-cloud-pubsub-4.1.0.tgz#298067813bf4cb1eb3411eb61dc9a66dcd88d4ce"
+  integrity sha512-UOeK1enCT/kc3+n3gnZSTmjadQd6hehOdvyEaRGCOg/hqPZfK8+i9e2HPmShs45KauaTq01doQ4K5/TtyXN0wg==
   dependencies:
     "@google-cloud/pubsub" "1.5.0"
     "@types/express" "4.17.2"
