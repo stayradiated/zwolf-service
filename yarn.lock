@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@ava/typescript@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@ava/typescript/-/typescript-1.0.0.tgz#26073375f26240926105c4af5794cc20d1ce4461"
-  integrity sha512-172eUTNpV1/lcQXz95X4BOBFnRAV4g/NoAVoJEbw2OUZd9YwT2OzJJqZUOmdZHSnYWGp0Wq2RlrzcSREGZuGQA==
+"@ava/typescript@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@ava/typescript/-/typescript-1.1.0.tgz#efa7f519d09b7ee7a162fc13f228cb3139f80ec9"
+  integrity sha512-WJ8icXvORhF40jkR4UUTcoeqHhLkgQhf1qUmkqQLPlOKdsjXSRizwmFX0STUGvrdR0qLmD697cAtTwWA8HHCRA==
   dependencies:
     escape-string-regexp "^2.0.0"
     is-plain-object "^3.0.0"
@@ -139,10 +139,10 @@
   resolved "https://registry.yarnpkg.com/@google-cloud/promisify/-/promisify-1.0.4.tgz#ce86ffa94f9cfafa2e68f7b3e4a7fad194189723"
   integrity sha512-VccZDcOql77obTnFh0TbNED/6ZbbmHDf8UMNnzO1d5g9V0Htfm4k5cllY8P1tJsRKC3zWYGRLaViiupcgVjBoQ==
 
-"@google-cloud/pubsub@1.4.1":
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/@google-cloud/pubsub/-/pubsub-1.4.1.tgz#3cf45c74c6073bef0927b22a3a6fc205960b4a4f"
-  integrity sha512-WDUrGisO6Xiy9+N00dzOvgc0ZV8hgwEzYQCacYwLU3DAlDm6ad/QR6TubJE2OHQ6VcCtzKQPMMi7yt1iCu75NA==
+"@google-cloud/pubsub@1.5.0":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@google-cloud/pubsub/-/pubsub-1.5.0.tgz#0ce5a60a90c87af9e9dcd28433a0da74c223007b"
+  integrity sha512-SCuNClo/xDGjYmciExxVjX78WPY1Ul6MK5Qn5eX2tsILqxXpf5Lan+XU/jnL53pirAIFgcxt8I2CWibSdSqRww==
   dependencies:
     "@google-cloud/paginator" "^2.0.0"
     "@google-cloud/precise-date" "^1.0.0"
@@ -289,13 +289,13 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.14.0.tgz#9fb3a3cf3132328151f353de4632e01e52102bea"
   integrity sha512-9NET910DNaIPngYnLLPeg+Ogzqsi9uM4mSboU5y6p8S5DzMTVEsJZrawi+BoDNUVBa2DhJqQYUFvMDfgU062LQ==
 
-"@stayradiated/pkg@^4.1.0":
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/@stayradiated/pkg/-/pkg-4.1.0.tgz#3c3a78b5acddd9be7ccc670d55c9c2d8205eb93b"
-  integrity sha512-6/spOqzYLb9JcnOcPWH9Ei10w+RwreKyCoprKkEIWU7mRWzz2jrCRs+ieXYOEovtMvHIL/RkJal4BNWlpVR9Jg==
+"@stayradiated/pkg@^4.2.0":
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/@stayradiated/pkg/-/pkg-4.2.0.tgz#68bc71b96a62d5d674e50f5696b60a12409a45fc"
+  integrity sha512-NRRqYOrrIeFJ+l9obdWZ/NSRleShDJV+ToS97JfVuyaluqBs9w8lSGddMqy0L37ACVfBgAwq8e1Ksx8XjHVYGw==
   dependencies:
-    "@ava/typescript" "1.0.0"
-    ava "3.1.0"
+    "@ava/typescript" "1.1.0"
+    ava "3.3.0"
     chalk "3.0.0"
     eslint "6.8.0"
     eslint-config-stayradiated "2.1.0"
@@ -409,7 +409,7 @@
   resolved "https://registry.yarnpkg.com/@types/minimatch/-/minimatch-3.0.3.tgz#3dca0e3f33b200fc7d1139c0cd96c1268cadfd9d"
   integrity sha512-tHq6qdbT9U1IRSGf14CL0pUlULksvY9OZ+5eEgl1N7t+OA3tGvNpxJCzuKQlsNgCVwbAs670L1vcVQi8j9HjnA==
 
-"@types/node@*", "@types/node@^13.7.0":
+"@types/node@*":
   version "13.7.0"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-13.7.0.tgz#b417deda18cf8400f278733499ad5547ed1abec4"
   integrity sha512-GnZbirvmqZUzMgkFn70c74OQpTTUcCzlhQliTzYjQMqg+hVKcDnxdL19Ne3UdYzdMA/+W3eb646FWn/ZaT1NfQ==
@@ -418,6 +418,11 @@
   version "10.17.14"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-10.17.14.tgz#b6c60ebf2fb5e4229fdd751ff9ddfae0f5f31541"
   integrity sha512-G0UmX5uKEmW+ZAhmZ6PLTQ5eu/VPaT+d/tdLd5IFsKRPcbe6lPxocBtcYBFSaLaCW8O60AX90e91Nsp8lVHCNw==
+
+"@types/node@^13.7.1":
+  version "13.7.1"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-13.7.1.tgz#238eb34a66431b71d2aaddeaa7db166f25971a0d"
+  integrity sha512-Zq8gcQGmn4txQEJeiXo/KiLpon8TzAl0kmKH4zdWctPj05nWwp1ClMdAVEloqrQKfaC48PNLdgN/aVaLqUrluA==
 
 "@types/node@^8.10.59":
   version "8.10.59"
@@ -506,16 +511,16 @@
     "@zwolf/firestore" "^1.0.2"
     "@zwolf/turbine" "^3.7.0"
 
-"@zwolf/turbine-driver-google-cloud-pubsub@^3.7.1":
-  version "3.7.1"
-  resolved "https://registry.yarnpkg.com/@zwolf/turbine-driver-google-cloud-pubsub/-/turbine-driver-google-cloud-pubsub-3.7.1.tgz#b6aa021c03db60353a6d55992d36f5a3b794cf2b"
-  integrity sha512-XSQ5Zj1EaOpVgO7wat55AhAm5RgD5ZUwEI8aK91fLn6IzPKp9ACypUrYxrrmXacwlmq5Ctgibclnyv2PrQzj8w==
+"@zwolf/turbine-driver-google-cloud-pubsub@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@zwolf/turbine-driver-google-cloud-pubsub/-/turbine-driver-google-cloud-pubsub-4.0.0.tgz#f31d05b9077b6cd5a2217b63c9b7398cc6162ec5"
+  integrity sha512-rMR9Mh7jRmQukRWNIbYKGhkldWwctGYYRdovxOwNkdQ5y5OC54PsYewqO8mLDSMoM3lzSItcSHoyhmitVcRcMw==
   dependencies:
-    "@google-cloud/pubsub" "1.4.1"
+    "@google-cloud/pubsub" "1.5.0"
     "@types/express" "4.17.2"
-    "@zwolf/turbine" "^3.7.0"
+    "@zwolf/turbine" "^4.0.0"
     body-parser "1.19.0"
-    env-var "5.2.0"
+    env-var "6.0.1"
     express "4.17.1"
     mem "6.0.1"
 
@@ -523,6 +528,13 @@
   version "3.7.0"
   resolved "https://registry.yarnpkg.com/@zwolf/turbine/-/turbine-3.7.0.tgz#4bad31ea2301b02ebb2c71f5d0a31346ff2d5310"
   integrity sha512-5wOvs6WeGsggnPmw/5Ld/zL35lsn3ElvT/A/sehMMVsVU8U6Xz/iKK1qfQiRMeNu8dvyV+GaOZlaXyDf7tE34Q==
+  dependencies:
+    ulid "2.3.0"
+
+"@zwolf/turbine@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@zwolf/turbine/-/turbine-4.0.0.tgz#a65567f825b5fd5e4c1567f86eb4a12e9702b748"
+  integrity sha512-63jnUR+ZTP1CdUCXImTANRcRy+O9wRRuCHb1ZoGE9fdnpe486/9Zz4JHtnmWdPZ3f5yCgNVP0cEQFG6exNyIIA==
   dependencies:
     ulid "2.3.0"
 
@@ -710,10 +722,10 @@ async-each@^1.0.1:
   resolved "https://registry.yarnpkg.com/async-each/-/async-each-1.0.3.tgz#b727dbf87d7651602f06f4d4ac387f47d91b0cbf"
   integrity sha512-z/WhQ5FPySLdvREByI2vZiTWwCnF0moMJ1hK9YQwDTHKh6I7/uSckMetoRGb5UBZPC1z0jlw+n/XCgjeH7y1AQ==
 
-ava@3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/ava/-/ava-3.1.0.tgz#20d4a434a7150ffaf34a2b5b45f223b3d115e164"
-  integrity sha512-SWMJT/CiS4KAenKRtgwBFGmHSxqI/1ANqYXTDCif9uyOjspJm3wLleqgdoyyr6N8S2E/T2ALSpUIbrqEcKsJgA==
+ava@3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/ava/-/ava-3.3.0.tgz#f95d9630e0811e7c03cbd1fa1316a9c8a872c6bb"
+  integrity sha512-RaH6jpiS/9ZdIuP1QkyhHvhprk0h38LVdkkpL7Mw25XR3z/6w1N3Nq9O2qm3awnw38CfIztmipzkv+671nWH2w==
   dependencies:
     "@concordance/react" "^2.0.0"
     ansi-styles "^4.2.1"
@@ -1442,10 +1454,10 @@ ent@^2.2.0:
   resolved "https://registry.yarnpkg.com/ent/-/ent-2.2.0.tgz#e964219325a21d05f44466a2f686ed6ce5f5dd1d"
   integrity sha1-6WQhkyWiHQX0RGai9obtbOX13R0=
 
-env-var@5.2.0, env-var@^5.2.0:
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/env-var/-/env-var-5.2.0.tgz#3ce888131793723b57f4602d8970a1cdbc7e6f27"
-  integrity sha512-D4vkwxt0aPY9SiQi6l/K57BvLn2aqASzExVlEpz7dHXVczbQmd1V3DQMMkTaPf4/tKvYAivX8oSRl86XGiDpTQ==
+env-var@6.0.1, env-var@^6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/env-var/-/env-var-6.0.1.tgz#eacaf23337d5256e7d6c391b3e4c48be3867a267"
+  integrity sha512-SBXkTaYQ/3I8UFhHIrnLatxsPfQ3+ex7MbPzrIWQNeBmN9Qcuy3GIRvFJn2UihO0kJ/OqBNNtrHS0KbC+oqKtQ==
 
 equal-length@^1.0.0:
   version "1.0.1"
