@@ -419,10 +419,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-10.17.14.tgz#b6c60ebf2fb5e4229fdd751ff9ddfae0f5f31541"
   integrity sha512-G0UmX5uKEmW+ZAhmZ6PLTQ5eu/VPaT+d/tdLd5IFsKRPcbe6lPxocBtcYBFSaLaCW8O60AX90e91Nsp8lVHCNw==
 
-"@types/node@^13.7.1":
-  version "13.7.1"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-13.7.1.tgz#238eb34a66431b71d2aaddeaa7db166f25971a0d"
-  integrity sha512-Zq8gcQGmn4txQEJeiXo/KiLpon8TzAl0kmKH4zdWctPj05nWwp1ClMdAVEloqrQKfaC48PNLdgN/aVaLqUrluA==
+"@types/node@^13.7.2":
+  version "13.7.2"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-13.7.2.tgz#50375b95b5845a34efda2ffb3a087c7becbc46c6"
+  integrity sha512-uvilvAQbdJvnSBFcKJ2td4016urcGvsiR+N4dHGU87ml8O2Vl6l+ErOi9w0kXSPiwJ1AYlIW+0pDXDWWMOiWbw==
 
 "@types/node@^8.10.59":
   version "8.10.59"
@@ -511,10 +511,10 @@
     "@zwolf/firestore" "^1.0.2"
     "@zwolf/turbine" "^3.7.0"
 
-"@zwolf/turbine-driver-google-cloud-pubsub@^4.2.0":
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/@zwolf/turbine-driver-google-cloud-pubsub/-/turbine-driver-google-cloud-pubsub-4.2.0.tgz#d090f7a410d4a7c267f2b41f6fd5c0b75e6596b0"
-  integrity sha512-WiVuRbOEXJVDv03lCvQKXJpqixE6aHPANorZCSdtFnr5r7x0WVYd45vzH8d6LCT29WkBC7HLo/Ks950y3snC5A==
+"@zwolf/turbine-driver-google-cloud-pubsub@^4.3.0":
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/@zwolf/turbine-driver-google-cloud-pubsub/-/turbine-driver-google-cloud-pubsub-4.3.0.tgz#d80739916b51f89f10affe9bb7e53c389f93df5d"
+  integrity sha512-pYlGuB67kUZFsFQRN8178+oTiP3iilU7Whmjaf4Q38tNw4DLKmjlqHb+aEY36fDoMBU4tH0ngET4K3sl+Y8eNw==
   dependencies:
     "@google-cloud/pubsub" "1.5.0"
     "@types/express" "4.17.2"
