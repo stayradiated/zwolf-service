@@ -1,6 +1,8 @@
 import env from 'env-var'
 
-export const SERVICE_NAME = env.get('SERVICE_NAME').asString()
+export const TURBINE_AMQP_URL = env.get('TURBINE_AMQP_URL').asString()
+
+export const SERVICE_NAME = env.get('SERVICE_NAME').required().asString()
 
 export const SERVICE_ACCOUNT_EMAIL = env.get('SERVICE_ACCOUNT_EMAIL').asString()
 
