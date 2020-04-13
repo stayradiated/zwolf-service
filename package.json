@@ -7,7 +7,7 @@
     "access": "public"
   },
   "scripts": {
-    "test": "pkg-test",
+    "test": "SERVICE_NAME=@zwolf/service pkg-test",
     "build": "pkg-build",
     "lint": "pkg-lint",
     "tidy": "pkg-tidy"
